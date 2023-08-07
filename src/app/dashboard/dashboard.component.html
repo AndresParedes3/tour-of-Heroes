@@ -1,0 +1,13 @@
+
+<h3 class="hero-title">Top Heroes</h3>
+<div class="heroes-list">
+  <div *ngFor="let hero of heroes" class="col-1-4">
+    <a class="hero-card" routerLink="/detail/{{hero.id}}">
+      <div class="hero-image">
+        
+        <img [src]="" alt="{{ hero.name }}">
+      </div>
+      <h4>{{ hero.name }}</h4>
+    </a>
+  </div>
+</div>

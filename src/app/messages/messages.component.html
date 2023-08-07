@@ -1,0 +1,7 @@
+
+<div *ngIf="messageService.messages.length" class="message-container">
+        <h2>Messages</h2>
+        <button class="clear-button" (click)="messageService.clear()">Clear</button>
+        <div *ngFor='let message of messageService.messages' class="message-item">{{ message }}</div>
+      </div>
+      
