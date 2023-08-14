@@ -1,7 +1,9 @@
-<h1>{{title}}</h1>
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
-</nav>
+<mat-toolbar>
+  <h1>{{ title }}</h1>
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link routerLink="/dashboard">Dashboard</a>
+    <a mat-tab-link routerLink="/heroes">Heroes</a>
+  </nav>
+</mat-toolbar>
 <router-outlet></router-outlet>
 <app-messages></app-messages>

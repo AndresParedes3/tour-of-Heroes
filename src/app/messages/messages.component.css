@@ -35,3 +35,27 @@ h2 {
   margin-bottom: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.page-container {
+  display: flex;
+  justify-content: flex-end; 
+  height: 40vh; 
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+.message-card {
+  width: 320px; 
+  background-color: #5e6ed4;
+}
+
+.mat-elevation-z4 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.message-item {
+  margin-bottom: 10px;
+}
+
+.clear-button {
+  margin-top: 10px; 
+}

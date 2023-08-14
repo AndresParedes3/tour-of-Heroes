@@ -39,3 +39,42 @@
     font-family: Arial;
    
   }  
+  /* Estilos adicionales para mejorar la apariencia */
+.hero-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-card {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mat-card-title {
+  font-size: 24px;
+  color: #3f51b5; /* Naranja llamativo */
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+}
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  height: 100vh;
+}
